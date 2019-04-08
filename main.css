@@ -4,7 +4,7 @@ body{
 }
 
 section{
-    padding: 6px 0px 6px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 .title{
@@ -33,4 +33,26 @@ img.another_teacher{
 img.smile_jumper{
     width: 400px;
     margin-right: 10px;
+}
+
+.noimage{
+    position:relative;
+    width: 400px;
+    height: 266px;
+    margin-right: 10px;
+    border: medium solid #dddddd;
+}
+
+.noimage p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.footer{
+    background-color: #e0e0e0;
+    height: 180px;
+    text-align: center;
 }
