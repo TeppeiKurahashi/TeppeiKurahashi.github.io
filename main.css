@@ -1,3 +1,13 @@
 h1{
     background-color: #dddddd;
 }
+
+body{
+    width: 800px;
+    margin:0 auto;
+}
+
+section{
+    padding: 6px 0px 6px 0px;
+}
+
