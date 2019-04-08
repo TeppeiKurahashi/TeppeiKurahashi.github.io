@@ -11,3 +11,26 @@ section{
     background-color: #dddddd;
     padding: 6px 0px 6px 24px;
 }
+
+.contents-item{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.contents-item h4{
+    margin:10px;
+}
+
+.contents-photo{
+    float: left;
+}
+
+img.another_teacher{
+    width: 400px;
+    margin-right: 10px;
+}
+
+img.smile_jumper{
+    width: 400px;
+    margin-right: 10px;
+}
