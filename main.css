@@ -4,12 +4,13 @@ body{
 }
 
 section{
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .title{
     background-color: #dddddd;
     padding: 6px 0px 6px 24px;
+    margin-bottom: 10px;
 }
 
 .contents-item{
@@ -55,4 +56,5 @@ img.smile_jumper{
     background-color: #e0e0e0;
     height: 180px;
     text-align: center;
+    margin-top: 10px;
 }
