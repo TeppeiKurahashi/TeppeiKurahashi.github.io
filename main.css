@@ -1,16 +1,22 @@
 body{
-    width: 800px;
-    margin:0 auto;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 section{
-    padding: 20px 0px 20px 0px;
+    padding: 20px 40px 20px 40px;
 }
 
 .title{
     background-color: #dddddd;
-    padding: 6px 0px 6px 24px;
+    padding: 30px 10px 30px 24px;
     margin-bottom: 10px;
+}
+
+.container{
+    width: 840px;
+    margin: 0 auto;
+    background-color: #ffffff;
 }
 
 .contents-item{
