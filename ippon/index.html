@@ -25,9 +25,9 @@
 
 document.addEventListener('visibilitychange', function () {
 if (document.visibilityState == "hidden") {
-    SendMessage("IpponGameManager", "Disconnect");
+    unityInstance.SendMessage("IpponGameManager", "Disconnect");
 } else {
-    SendMessage("IpponGameManager", "Reconnect");
+    unityInstance.SendMessage("IpponGameManager", "Reconnect");
 }
 });
 
