@@ -21,15 +21,14 @@
         <div class="title">IPPON</div>
       </div>
     </div>
-
     <script>
 
 document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState == "hidden") {
-        SendMessage("GameManager", "Disconnect");
-    } else {
-        SendMessage("GameManager", "Reconnect");
-    }
+if (document.visibilityState == "hidden") {
+    SendMessage("IpponGameManager", "Disconnect");
+} else {
+    SendMessage("IpponGameManager", "Reconnect");
+}
 });
 
 </script>
